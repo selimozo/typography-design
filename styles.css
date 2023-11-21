@@ -8,6 +8,7 @@
   
   body {
     font-family: 'Open Sans', sans-serif;
+    background-color: lightblue;
   }
   
   .label {
@@ -15,8 +16,15 @@
     width: 270px;
     margin: 20px auto;
     padding: 0 7px;
+    background-color: white;
+    transition: all 0.3s ease-out;
   }
   
+  .label:hover{
+    background-color: lightyellow;
+    border-radius: 10px;
+    scale:1.03;
+  }
   header h1 {
     text-align: center;
     margin: -4px 0;
